@@ -1,0 +1,34 @@
+{
+  "name": "setup-prettier",
+  "version": "1.0.0",
+  "description": "Just an example for configuring Prettier for your project",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdarshshah/setup-prettier.git"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "eslint",
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "Darsh Shah <imdarshshah@gmail.com> (http://darshshah.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamdarshshah/setup-prettier/issues"
+  },
+  "homepage": "https://github.com/iamdarshshah/setup-prettier#readme",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "prettier": "^2.0.5"
+  }
+}
